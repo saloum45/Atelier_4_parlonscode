@@ -1,0 +1,63 @@
+*{
+    font-family:  sans-serif;
+}
+
+.banniere{
+    height: 300px;
+    background-image: url(images/background.png);
+    background-size: cover;
+    
+    /* background-repeat: no-repeat; */
+}
+.banniere_text{
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* .banniere_bg{
+    height: 300px;
+    
+} */
+
+
+
+.card-text a{
+    text-decoration: none;
+}
+.card-text a:hover{
+    text-decoration: underline;
+    /* color: rgb(0, 0, 255); */
+}
+
+
+/* .card{
+    min-height: 450px;
+} */
+
+span.bg-success{
+    font-size: 10px;
+    padding: 5px;
+}
+
+
+.temoignage-section img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.temoignage-section p{
+   font-weight: lighter;
+}
+
+
+footer{
+    height: 300px;
+}
+footer a{
+    text-decoration: none;
+    color: #9FA6B2;
+}
+footer a:hover{
+    text-decoration: underline;
+}
