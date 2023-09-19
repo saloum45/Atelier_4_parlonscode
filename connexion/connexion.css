@@ -1,4 +1,4 @@
-body{
+/* body{
     font-family: 'sans serif';
     background-color: #F9F9F9 !important;
 }
@@ -18,4 +18,8 @@ body{
     border: 1px solid #F5F5F5;
     text-align: center;
     max-height: 50px;
+} */
+
+form{
+    width: 0 auto;
 }
