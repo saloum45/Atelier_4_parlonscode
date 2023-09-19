@@ -9,7 +9,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: sans-serif;
 
 }
@@ -65,4 +64,7 @@ hr{
     width: 112%;
     position: relative;
     left: -6%;
+}
+span{
+    color: rgb(7, 6, 105);
 }
