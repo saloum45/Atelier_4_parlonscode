@@ -15,3 +15,8 @@ a:hover{
 .diabata{
     height: 25%;
 }
+
+#popup_text{
+    /* background-color: red; */
+    margin:  auto;
+}
