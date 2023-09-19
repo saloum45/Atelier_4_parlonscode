@@ -63,7 +63,6 @@ span.bg-success {
 /* debut css pour les le footer */
 footer {
     height: auto;
-    width: 100%;
 }
 
 footer a {
@@ -93,39 +92,3 @@ footer a:hover {
 
 
 /* fin css pour les le footer */
-
-
-/* masterclass python */
-#master{
-    background-color: #3F55AF;
-    color: white;
-}
-.card-body{
-    
-}
-.card-body ul{
-display: flex;
-justify-content: space-evenly;
-}
-.card-body ul li{
-list-style-type: none;
-font-weight: bold;
-}
-.bg-Light{
-    
-}
-.bg-Light ul{
-display: flex;
-justify-content: space-evenly;
-}
-.bg-Light li{
-list-style-type: none;
-}
-#price{
-    height: 75px;
-    background-color: #F5F5F5;
-    border-top: 1px solid black;
-}
-/* #price p{
-    col
-} */
