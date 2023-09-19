@@ -14,3 +14,14 @@ body{
 .podcastsimage{
     height: 140px;
 }
+.podcastslien .iconefont p{
+    font-size: 12px;
+    color: black;
+}
+.podcastslien .icone p{
+    color: #877d7d;
+    font-size: 12px;
+}
+.frameposcats{
+    border: 1px solid rgb(233, 229, 229);
+}
