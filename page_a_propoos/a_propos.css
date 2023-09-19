@@ -4,7 +4,7 @@ body{
     font-family: verdana;
     box-sizing: border-box;
     justify-content: center;
-    padding-top: 10em;
+    /* padding-top: 10em; */
 }
 
 .divCont{
