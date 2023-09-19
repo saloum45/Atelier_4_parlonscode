@@ -5,10 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>panier</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>synphonie</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
@@ -55,7 +52,7 @@
     <div class="container mt-5 px-5">
         <div class="text-center">
 
-            <h2 class="fs-2"><i class="fa-solid fa-cart-shopping" style="color: rgb(40, 56, 77);"></i></i> Votre Panier</h2>
+            <h2 class="fs-2"><i class="fa-solid fa-book" style="color: rgb(40, 56, 77);"></i> Symfony 5 en une semaine!</h2>
             <hr>
         </div>
 
@@ -63,47 +60,102 @@
             <div class="col-md-8">
                 <div class="card border-primary">
                     <div class="card-header  text-white" id="master">
-                        <i class="fa-solid fa-cart-shopping" style="color: white;"></i> Contenu actuel de votre panier
+                        <i class="bi bi-code-slash"></i> Symfony 5 en une semaine!
                     </div>
                     <div class="card-body">
-                            <ul>
-                                <li>Formation</li>
-                                <li>Quantité</li>
-                                <li>Prix (USD)</li>
-                                <li>Total(USD)</li>
-                            </ul>
+
+                        <p class="card-text fw-lighter"> Symfony a la mauvaise réputation d'être un framework difficile d'apprentissage mais il s'agit en effet d'une idée désuète. Symfony est en réalité un framework simple à appréhender, ultra performant et regroupant un ensemble de composants basés sur d'excellentes pratiques de développement. Donnez-moi une semaine et je vous le prouverai :). Ready? </p>
                     </div>
-                    <div class="bg-Light">
-                        <ul>
-                            <li><i class="fa-brands fa-python" style="color: #ffda44;"></i></li>
-                            <li><p>MarterClass Python <br>accés à vie </p></li>
-                            <li> <button id="etat" class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" >1</button></li>
-                            <li><button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon03">Modifeir</button></li>
-                            <li>$89.00</li>
-                            <li>$89.00</li>
-                            <li><i class="fa-regular fa-rectangle-xmark"></i></li>
-                        </ul>
+
+                    <div class="container text-center mt-5">
+                        <iframe width="100%" height="300"
+                            src="https://www.youtube.com/embed/mTF3phNcoZQ?si=6r3c_H95mM5Dt4A0"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
                     </div>
-                    <div class="card-body" id="price">
-                            <p>Sous-total: $89.00</p>
+
+                    <div class="container mt-5 bg-body-secondary rounded-2 mb-5 text-center" style="width: 98%;">
+                        <span class="fw-lighter">Joignez-vous à des milliers d'autres personnes qui ont appris Symfony
+                            via cette formation <br> étape par étape.</span>
+
+                        <div class="row  mt-3">
+                            <div class=" col-md-2 col-6 mt-3">
+                                <i class="bi bi-camera-video-fill text-white bg-secondary p-2 rounded-5"></i> <br>
+                                <span class="fw-lighter">Vidéos</span>
+                            </div>
+                            <div class=" col-md-2 col-6 mt-3">
+                                <i class="bi bi-pencil-fill text-white bg-secondary p-2 rounded-5"></i> <br>
+                                <span class="fw-lighter">Exercices</span>
+                            </div>
+                            <div class=" col-md-2 col-6 mt-3">
+                                <i class="bi bi-cloud-arrow-down text-white bg-secondary p-2 rounded-5"></i> <br>
+                                <span class="fw-lighter">Downloads</span>
+                            </div>
+                            <div class=" col-md-2 col-6 mt-3">
+                                <i class="bi bi-code-slash text-white bg-secondary p-2 rounded-5"></i> <br>
+                                <span class="fw-lighter">Codes</span>
+                            </div>
+                            <div class=" col-md-2 col-6 mt-3">
+                                <i class="bi bi-chat-dots text-white bg-secondary p-2 rounded-5"></i> <br>
+                                <span class="">Support</span>
+                            </div>
+                            <div class="fw-lighter col-md-2 col-6 mt-3">
+                                <i class="bi bi-hourglass-split text-white bg-secondary p-2 rounded-5"></i> <br>
+                                <span class="fw-lighter">Accès à vie</span>
+                            </div>
+                        </div>
+
+                        <a href="" class="btn  mt-3" id="master" ><i class="bi bi-cart-fill"></i> AJOUTER A MON PANIER |
+                            <span class="text-decoration-line-through text-white">$349.00</span> $139.00 </a> <br>
+                        <span class="fw-lighter mt-1">Paiement unique · Accès instantané et sans fin</span>
+                        <div class="mt-5">
+
+                            <span class="">OU<a href="" class="text-decoration-none fw-lighter"> commencez à regarder
+                                    gratuitement!</a></span>
+                        </div>
+
                     </div>
-                        
                 </div>
 
-                </div>
+            </div>
 
             <div class="col-md-4">
                 <div class="card " >
-                    <div class="card-header  bg-primary-subtle text-primary-emphasis">
-                        <i class="fa-solid fa-star" style="color: #31708f;"></i> Gagner 20% de réduction
+                    <div class="card-header  text-white" id="master">
+                        <i class="bi bi-mic-fill"></i> Formateur
                     </div>
                     <div class="card-body ">
-                       <p class="card-text fw-lighter"> Achetez plus d'une formation et vous obtiendrez automatiquement un rabais combiné de 20% sur les cours supplémentaires</p>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="https://parlonscode.com/images/teachers/honore.jpeg" alt="" width="100%">
+                            </div>
+                            <div class="col-md-9">
+
+                                <h5 class="card-title fw-lighter"> Honoré Hounwanou</h5>
+                                <span class="fw-lighter"><i class="bi bi-dash-circle-dotted"></i> Formateur Parlons
+                                    Code</span>
+                                <p class="card-text fw-lighter text-secondary mt-3">Honoré est un grand passionné du
+                                    développement Web & Mobile.</p>
+
+                            </div>
                         </div>
                     </div>
-                
-            </div>
-                
+                </div>
+
+
+                <div class="card mt-3 ">
+                    <div class="card-header bg-primary-subtle text-primary-emphasis" id="master">
+                        <i class="bi bi-eye-slash"></i> Usage Personnel
+                    </div>
+                    <div class="card-body ">
+                        <p class="card-text fw-lighter">Tout le matériel didactique, y compris les vidéos, les exercices
+                            et le code source est protégé par le droit d'auteur et est uniquement destiné à un usage
+                            individuel. Chaque personne devra donc acheter sa propre copie. Merci pour votre soutien.
+                        </p>
+                    </div>
+                </div>
+
                 <div class="card mt-3">
                     <div class="card-header bg-primary-subtle text-primary-emphasis">
                         <i class="bi bi-substack"></i> Autres formations
@@ -129,17 +181,6 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="card mt-3 ">
-                    <div class="card-header bg-primary-subtle text-primary-emphasis" id="master">
-                        <i class="fa-solid fa-star" style="color: #31708f;"></i>  Réductions
-                    </div>
-                    <div class="card-body ">
-                        <p class="card-text fw-lighter">3 manières d'économiser: Nous avons des réductions combinées, des réductions académiques, et des réductions pour les équipes
-                        </p>
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>
