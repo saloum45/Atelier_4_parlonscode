@@ -124,7 +124,29 @@ list-style-type: none;
     height: 75px;
     background-color: #F5F5F5;
     border-top: 1px solid black;
+    color: #3F55AF;
 }
 #price p{
-    col
+    color:#3F55AF ;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+}
+#soumettre{
+    display: flex;
+    justify-content: right;
+}
+#soumettre ul{
+    
+}
+#soumettre ul li{
+padding-right: 12px;
+}
+#magasiner{
+    font-size: 14px;
+    background-color: #6B9DBB;
+}
+#payer {
+    font-size: 14px;
+    background-color: #36858E;
 }
