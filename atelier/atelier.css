@@ -1,5 +1,5 @@
 :root{
-    --color1:#F9F9F9;
+    --color1: #F9F9F9;
     --color2: #D9EDF7;
     --color3: #fff;
     --color4: #4e4e4e;
@@ -15,27 +15,25 @@
 }
 .pfirst,h1{
     text-align: center;
-    position: relative;
-    top: 40px;
+ 
 }
 hr{
     width: 95%;
     color: var(--color5);
-    position: relative;
-    top: 40px;
+   
 }
 .row{
-    position: relative;
-    top: 60px;
+    /* position: relative; */
+    /* top: 60px; */
     /* border-top:1px solid var(--color5) ; */
 }
-.card{
+/* .card{
     border: 1px solid var(--color2);
     height: 210px;
-    width: 300px;
+    width: 350px;
     border-radius: 10px;
     
-}
+} */
 .row .card{
      border: 2px solid var(--color2) ;
      height: 300px;
@@ -48,9 +46,12 @@ hr{
     color: var(--color5);
     font-size: 17px;
 }
-.card-text{
+ .card-text{
     font-size: 13px;
     color: var(--color4);
+    /* min-height: 140px; */
+    height: 140px;
+    line-height: 25px;
 }
 .btn{
     background-color: var(--color3);
@@ -58,26 +59,10 @@ hr{
     border: 1px solid var(--color5);
     text-align: center;
     width: 100%;
-   
+} 
 
-}
-.b1{
+.card-footer{
+    width: 112%;
     position: relative;
-    top: 50px;
-
-}
-.b2{
-    position: relative;
-    top: 30px;
-
-}
-.b3{
-    position: relative;
-    top: 50px;
-
-}
-.rien{
-    background-color: var(--color5);
-    position: relative;
-    top: 50px;
+    left: -6%;
 }
