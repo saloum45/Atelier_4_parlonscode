@@ -63,6 +63,7 @@ span.bg-success {
 /* debut css pour les le footer */
 footer {
     height: auto;
+    width: 100%;
 }
 
 footer a {
