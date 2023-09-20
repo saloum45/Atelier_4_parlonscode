@@ -143,3 +143,12 @@ list-style-type: none;
     /* background-color: blue; */
 }
 
+
+#button_temoin{
+    background-color: transparent;
+    color: #4083be;
+}
+#button_temoin:hover{
+    background-color: #4083be;
+    color: white;
+}
