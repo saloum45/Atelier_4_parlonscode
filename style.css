@@ -133,3 +133,13 @@ list-style-type: none;
 .spacement{
     height: 55px;
 }
+
+
+#navbar a{
+    color: #8496a9;
+}
+#navbar a:hover{
+    color: rgb(255, 255, 255);
+    /* background-color: blue; */
+}
+
